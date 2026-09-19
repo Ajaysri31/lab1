@@ -1,0 +1,140 @@
+'''# 1. print"HELLO WORLD"
+print(f'"HELLO WORLD!"')
+
+# 2. print"welcome to the world of python"
+print(f'"welcome to the world of python"')
+
+# 3. print"This is an 'IMPORTANT' News"
+print(f'"This is an \'IMPORTANT\' NEWS"')
+
+# 4. print"Good Book's"
+print(f'"Good Book\'s"')
+
+# 5. deci to hex conversion and binary conversion(hex and bin)
+a=38
+b=hex(a)
+c=bin(a)
+print(b,c)
+
+# 6. mathematical operators(+,-,*,/,//,%)and find the difference between division,modulo division and floor division
+a=18
+b=17
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+
+# 7. seperate the given no and perform the mathematical operations
+value=54321
+s=54321//10000 #5
+s1=value%10000 #4321
+s2=s1//1000 #4
+s3=s1%1000 #321
+s4=s3//100 #3
+s5=s3%100 #21
+s6=s5//10 #2
+s7=s5%10 #1
+a=(s,s2,s4,s6,s7)
+for i in a:
+    print(i)
+print(s+s2)
+print(s4*s6)
+print(s6-s7)
+print(s4**s6)
+print(s//s2)
+
+# 8. swap two numbers
+a=18
+b=17
+a1 = a
+a = b
+b = a1
+print(a)
+print(b)
+
+# 9. find the area, perimeter of square, rectangle, circle, triangle...
+l=10
+a=l**2
+print("Area of square:" ,a)
+print("Perimeter of square:" ,4*l)
+
+l=10
+b=20
+a=l*b
+print("Area of rectangle:" ,a)
+print("Perimeter of rectangle:", 2*a)
+
+h=10
+b=5
+hyp=1/2*h*b
+print("Area of triangle:", hyp)
+print("Perimeter of traiangle:", hyp+h+b)
+
+r=3
+print("Area of circle:", 3.14*r**2)
+print("Perimeter of circle:", 2*3.14*r)
+
+# 10. find the output
+print("were" + "wolf")
+print("Door" + "man")
+print("4" + "chan")
+print(str(4)+ "chan")
+print(4 * "test")
+
+# 11. single line variable and get input assigned .Print the values of variable seperately
+c,d=10,20
+print(c)
+print(d)
+
+# 12. create a program that asks the user to enter their name and their age. print a message addressed them that tells them the year that they will turn 100 years old
+name=input("Enter a name:")
+age=int(input("Enter an age:"))
+year= 2026+(100-age)
+print(f"year when you enter 100 age is = {year}:")
+
+# 13. find the following output
+x=3*4%5
+x=-3+4-7*8/5%10
+y=x
+z=y
+i=2
+j=i
+sub=j
+good=sub
+test=(4*x+3)*(2*y+2*z-4)
+m=i*100+j*10
+mult=m
+on=mult*sub/4-6/2+2/3*6/good
+print(on)
+
+# 14. on dividing a float number get only integer quotient value
+a=18
+b=17
+print(a//b)
+
+# 15. find the type of data entered
+a=8
+print(type(a))
+b="ajay"
+print(type(b))
+c=2.0
+print(type(c))
+d=2+4j
+print(type(d))
+
+
+# 16. check the following conditions:
+a=int(input("enter the value for a:"))
+b=int(input("enter the value for b:"))
+c=int(input("enter the value for c:"))
+print(a>b and a<c)
+print(a>=b or a<=c)
+print(a==b or b>c)
+print(b>15 and c<10 or a>50)
+
+# 17. get the user input and find the largest and smallest number
+a=(input("Enter a number :"))
+print("Maximum number:", int(max(a)))
+print("Minimum number :",int(min(a)))'''
