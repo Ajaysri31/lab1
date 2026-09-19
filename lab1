@@ -107,6 +107,9 @@ test=(4*x+3)*(2*y+2*z-4)
 m=i*100+j*10
 mult=m
 on=mult*sub/4-6/2+2/3*6/good
+print(x)
+print(test)
+print(m)
 print(on)
 
 # 14. on dividing a float number get only integer quotient value
