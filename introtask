@@ -1,0 +1,93 @@
+'''# 1. create identifier with string
+name="ajay"
+print(name)'''
+
+'''# 2. create identifier with float
+a=8.0
+print(a)'''
+
+'''# 3. create identifier with integer
+a=18
+print(a)'''
+
+'''# 4. try out identifier naming rules
+18ajay=1817
+18 ajay=1817
+ajay18=1817
+ajay 18=1817
+ajay_18=1817
+NAME="AJAY"
+name="ajay"
+name@="ajay"'''
+
+'''# 5. convert integer into float
+a=8
+b=float(a)
+print(b)'''
+
+'''# 6. convert float to string
+a=8.0
+b=str(a)
+print(b)'''
+
+'''# 7. string to integer
+a="18"
+b=int(a)
+print(b)'''
+
+'''# 8. convert float to integer
+a=8.0
+b=int(a)
+print(b)'''
+
+'''# 9. try out the arithmetic operations
+a=18
+b=17
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)'''
+
+'''# 10. try out the comparison operations
+a=18
+b=17
+print(a>b)
+print(a>=b)
+print(a<b)
+print(a<=b)
+print(a==b)
+print(a!=b)'''
+
+'''# 11. try out logical operations
+a=18
+b=17
+print(a>10 and b<20)
+print(a>10 or b<10)
+print(not(a>10 and b<20))'''
+
+'''# 12. add two strings
+a="ajay"
+b="kavi"
+print(a+b)'''
+
+'''# 13. add two integers
+a,b=18,17
+print(a+b)'''
+
+'''# 14. add integer and string
+a="ajay"
+b=18
+c=str(b)
+print(a+c)'''
+
+'''# 15. multiply string and integer
+a="ajay"
+b=18
+print(a*b)'''
+
+
+
+
